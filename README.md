@@ -539,10 +539,11 @@ print(name)! // "Lu or Luke (either is fine)"
 ```
 
 Similarly, you can use an inverted exclamation mark for negative priority.
+To avoid any confusion with existing languages, the inverted exclamation mark prefix the variable.
 
 ```java
 const const name = "Lu"!
-const const name = "Luke"¡
+const const name = ¡"Luke"!
 print(name)! // "Lu"
 ```
 
